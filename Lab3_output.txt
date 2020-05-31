@@ -1,0 +1,122 @@
+--------------------
+Testing Stack class:
+
+Creating a new stack:
+<class 'Lab3.Stack'>
+Printing Contents of Stack: 
+Is empty? = True
+Is full? = False
+Peek: 
+Error(Stack.peek):Invalid peek operation. Stack is empty
+item = None
+Pop: 
+Error(Stack.pop):Invalid pop operation. Stack is empty
+item = None
+
+Push integer 5 and print stack:
+5
+Is empty? = False
+Is full? = False
+Peek: 
+item = 5
+
+Push integer 10 then 15 and print stack:
+15
+10
+5
+Is empty? = False
+Is full? = True
+Peek: 
+item = 15
+
+Push integer 20 and print contents of stack:
+Error(Stack.push):Invalid push operation. Stack is full
+15
+10
+5
+Pop, print item and then print stack: 
+item = 15
+10
+5
+
+End of stack class testing
+--------------------
+
+--------------------
+Testing print_stack:
+
+Printing an empty stack of size 5: 
+size = 5
+[]
+
+filling stack with 1 to 5, then print:
+size = 5
+5
+4
+3
+2
+1
+
+End of print_stack testing
+--------------------
+
+--------------------
+Testing list_to_stack:
+
+Converting [] to a stack
+size = 0
+[]
+
+Converting [10,20,30] to a stack
+size = 3
+30
+20
+10
+
+Converting [[1, 2, 3], [4, 5, 6], [7, 8, 9]] to a stack: 
+size = 3
+[7, 8, 9]
+[4, 5, 6]
+[1, 2, 3]
+
+End of list_to_stack testing
+--------------------
+
+--------------------
+Testing test_count:
+
+Reading students1.txt int a stack of size 12 
+size = 12
+2020211:Singh,Chaudhari
+2018523:Maina,Hillel
+2019432:Somer,David
+2020931:Black,Milly
+2018604:Hampton,Laura
+2019731:Medina,Kane
+2020411:King,Maha
+2019111:Hay,Ria
+2020301:Chin,Yu
+2019399:Hess,Alvin
+
+Reading students2.txt int a stack of size 12 
+size = 12
+2019799:Comtois,Rebecca
+2020465:Brisbois,Hubert
+2018853:Garcon,Clea
+2018529:Nicodeme,Sauvageot
+2020522:Narcisse,Robin
+2019488:Lousie,Marie
+2020777:Robertson,Sam
+2019496:Li,Han
+2018469:Penjani,Vishal
+2019208:Lam,Dorit
+2018555:Kowk,Gauri
+2020399:Wanjiru,Zhou
+
+Reading students3.txt int a stack of size 12 
+size = 12
+[]
+
+End of students_to_stack testing
+--------------------
+
